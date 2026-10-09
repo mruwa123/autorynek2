@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "autorynek",
+  "version": "${version}",
+  "name": "AutoRynek",
+  "description": "Automatyczny skup z rynku (/ah open): lista przedmiotów z maksymalną ceną za sztukę, HUD ze statystykami.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.autorynek.AutoRynekMod"]
+  },
+  "mixins": ["autorynek.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
